@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+}
+#op-eq {
+    background-color: orange;
+}
+#op-plus {
+    background-color: orange;
+}
+#op-ac {
+    width: 103px;
+}
+.buttons {
+    max-width: 25%;
+}
