@@ -21,15 +21,27 @@ button {
     border-radius: 5px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
 }
-#op-eq {
-    background-color: orange;
+.buttons {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 0.5em;
 }
-#op-plus {
+.numbers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.operations {
+    display: flex;
+    flex-direction: column;
+}
+.operations button {
     background-color: orange;
+    width: 40px;
 }
 #op-ac {
-    width: 103px;
+    background-color: rgb(255, 30, 30);
 }
-.buttons {
-    max-width: 25%;
+#num-0 {
+    grid-column-start: 2;
+
 }
